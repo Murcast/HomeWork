@@ -107,7 +107,7 @@ public class FilterList<E> {
      * Constructs an empty list with an initial capacity of ten and empty predicate data array.
      */
     public FilterList() {
-        this(0, EMPTY_PREDICATEDATA);
+        this(DEFAULT_CAPACITY, EMPTY_PREDICATEDATA);
     }
 
     /**
@@ -128,8 +128,9 @@ public class FilterList<E> {
      *
      * @param index index of the element to return
      * @return the element at the specified position in this list
-     * @throw IndexOutOfBoundsException if index is negative or not in range
+     * @throws IndexOutOfBoundsException if index is negative or not in range
      */
+    @SuppressWarnings("unchecked")
     public E get(int index) {
         rangeCheck(index);
 
@@ -142,12 +143,12 @@ public class FilterList<E> {
      * indices).
      *
      * @param index the index of the element to be removed
-     * @throws IndexOutOfBoundsException {@inheritDoc}
+     * @throws IndexOutOfBoundsException if rangeCheck method throws it
      */
     public void remove(int index) {
         rangeCheck(index);
 
-        if (notContains((E) elementData[index])) {
+        if (notContains(elementData[index])) {
             for (int i = index; i < size; i++) {
                 elementData[i] = elementData[i+1];
             }
@@ -212,7 +213,7 @@ public class FilterList<E> {
      * Private method that checks whether an element is not contained in predicate array.
      * If not, returns true.
      */
-    private boolean notContains(E element) {
+    private boolean notContains(Object element) {
         for(int i = 0; i < predicateData.length; i++) {
             if(predicateData[i].equals(element)) {
                 return false;
@@ -263,7 +264,7 @@ public class FilterList<E> {
         private int currentIndex = 0; // index of next element to return
         private int lastRet = -1; // index of last element returned; -1 if no such
 
-        public Iter() {
+        Iter() {
         }
 
         /**
@@ -273,7 +274,7 @@ public class FilterList<E> {
          */
         public boolean hasNext() {
             while(currentIndex < size) {
-                if(FilterList.this.notContains((E)elementData[currentIndex])) {
+                if(FilterList.this.notContains(elementData[currentIndex])) {
                     return true;
                 }
                 currentIndex++;
@@ -287,6 +288,7 @@ public class FilterList<E> {
          * @return the element pointed to by currentIndex
          * @throws NoSuchElementException if method hasNext returned false and method next was called
          */
+        @SuppressWarnings("unchecked")
         public E next() {
             if(hasNext()) {
                 currentIndex++;
@@ -300,11 +302,12 @@ public class FilterList<E> {
          * Method that removes element at currentIndex position
          *
          * @throws IllegalStateException if method remove was called without calling method next at least one time
-         * @throws ConcurrentModificationException
+         * @throws ConcurrentModificationException if method remove was called two consecutive times
          */
         public void remove() {
-            if (lastRet < 0)
+            if (lastRet < 0) {
                 throw new IllegalStateException();
+            }
 
             try {
                 FilterList.this.remove(lastRet);
