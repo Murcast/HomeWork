@@ -1,8 +1,5 @@
 package HomeWork.FirstTask;
-import java.util.ArrayList;
-import java.util.ConcurrentModificationException;
-import java.util.Iterator;
-import java.util.NoSuchElementException;
+import java.util.*;
 
 
 public class FilterList<E> {
@@ -29,7 +26,8 @@ public class FilterList<E> {
     private transient Object[] elementData;
 
     /**
-     * The predicate data array.
+     * The array of predicates whose elements restrict the addition of new
+     * elements to the array and the deletion of the existing ones
      */
     private transient Object[] predicateData;
 
@@ -47,7 +45,7 @@ public class FilterList<E> {
      * @throws IllegalArgumentException if the specified initial capacity
      *         is negative or predicateData argument equals null.
      */
-    public FilterList(int initialCapacity, E[] predicateData) {
+    public FilterList(int initialCapacity, Object[] predicateData) {
         if (initialCapacity > 0) {
             this.elementData = new Object[initialCapacity];
         } else if (initialCapacity == 0) {
@@ -71,15 +69,7 @@ public class FilterList<E> {
      * @throws IllegalArgumentException if the specified initial capacity is negative
      */
     public FilterList(int initialCapacity) {
-        if (initialCapacity > 0) {
-            this.elementData = new Object[initialCapacity];
-        } else if (initialCapacity == 0) {
-            this.elementData = EMPTY_ELEMENTDATA;
-        } else {
-            throw new IllegalArgumentException("Illegal Capacity: "+
-                    initialCapacity);
-        }
-        this.predicateData = EMPTY_PREDICATEDATA;
+        this(initialCapacity, EMPTY_PREDICATEDATA);
     }
 
     /**
@@ -88,13 +78,8 @@ public class FilterList<E> {
      * @param predicateData predicate data array
      * @throws IllegalArgumentException if the specified predicateData argument equals null
      */
-    public FilterList(E[] predicateData) {
-        if (predicateData != null) {
-            this.predicateData = predicateData;
-        } else {
-            throw new IllegalArgumentException("Illegal predicateData argument");
-        }
-        this.elementData = EMPTY_ELEMENTDATA;
+    public FilterList(Object[] predicateData) {
+        this(0, predicateData);
     }
 
     /**
@@ -104,7 +89,7 @@ public class FilterList<E> {
      * @param predicateData predicate data array
      * @throws IllegalArgumentException if the specified elementData or predicateData argument equals null
      */
-    public FilterList(E[] elementData, E[] predicateData) {
+    public FilterList(Object[] elementData, Object[] predicateData) {
         if (predicateData != null) {
             this.predicateData = predicateData;
         } else {
@@ -122,8 +107,7 @@ public class FilterList<E> {
      * Constructs an empty list with an initial capacity of ten and empty predicate data array.
      */
     public FilterList() {
-        this.elementData = EMPTY_ELEMENTDATA;
-        this.predicateData = EMPTY_PREDICATEDATA;
+        this(0, EMPTY_PREDICATEDATA);
     }
 
     /**
@@ -425,5 +409,6 @@ public class FilterList<E> {
         } catch (Exception e) {
             System.out.println("\n" + e.getMessage());
         }
+
     }
 }
