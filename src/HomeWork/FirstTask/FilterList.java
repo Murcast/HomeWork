@@ -54,7 +54,7 @@ public class FilterList<E> implements List<E> {
         if (predicate != null) {
             this.predicate = predicate;
         } else {
-            throw new IllegalArgumentException("Illegal predicateData argument");
+            throw new IllegalArgumentException("Illegal predicate argument");
         }
     }
 
@@ -72,7 +72,7 @@ public class FilterList<E> implements List<E> {
      * Constructs an empty list with the initial capacity of ten and specified predicate.
      *
      * @param predicate predicate
-     * @throws IllegalArgumentException if the specified predicateData argument equals null
+     * @throws IllegalArgumentException if the specified predicate argument equals null
      */
     public FilterList(Predicate predicate) {
         this(0, predicate);
@@ -89,7 +89,7 @@ public class FilterList<E> implements List<E> {
         if (predicate != null) {
             this.predicate = predicate;
         } else {
-            throw new IllegalArgumentException("Illegal predicateData argument");
+            throw new IllegalArgumentException("Illegal predicate argument");
         }
         if (elementData != null) {
             this.elementData = elementData;
@@ -303,7 +303,7 @@ public class FilterList<E> implements List<E> {
         /**
          * Method that checks for the presence of the next element
          *
-         * @return true if the next element is present and not contained in predicateData array
+         * @return true if the next element is present and not contained in predicate array
          */
         @Override
         public boolean hasNext() {

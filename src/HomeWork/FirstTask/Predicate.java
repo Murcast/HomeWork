@@ -25,7 +25,11 @@ public class Predicate {
      * @param predicateData predicate data array
      */
     public Predicate(Object[] predicateData){
-        this.predicateData = predicateData;
+        if (predicateData != null) {
+            this.predicateData = predicateData;
+        } else {
+            throw new IllegalArgumentException("Illegal predicateData argument");
+        }
     }
 
     /*

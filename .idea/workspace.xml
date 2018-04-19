@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68324b76-ece1-4204-a58c-0f2cdd7706e4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/HomeWork/FirstTask/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork/FirstTask/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork/FirstTask/FilterList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork/FirstTask/FilterList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork/FirstTask/Predicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork/FirstTask/Predicate.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +35,8 @@
       <file leaf-file-name="FilterList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HomeWork/FirstTask/FilterList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="212" column="30" lean-forward="true" selection-start-line="212" selection-start-column="30" selection-end-line="212" selection-end-column="30" />
+            <state relative-caret-position="-357">
+              <caret line="24" column="33" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="33" />
               <folding>
                 <element signature="e#2358#2359#0" expanded="true" />
                 <element signature="e#2416#2417#0" expanded="true" />
@@ -90,13 +91,11 @@
       <file leaf-file-name="Predicate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HomeWork/FirstTask/Predicate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#412#413#0" expanded="true" />
                 <element signature="e#468#469#0" expanded="true" />
-                <element signature="e#567#568#0" expanded="true" />
-                <element signature="e#617#618#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,6 +167,7 @@
       <find>size</find>
       <find>remove</find>
       <find>isEmpty</find>
+      <find>predicateData</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -182,9 +182,9 @@
         <option value="$PROJECT_DIR$/src/HomeWork/FirstTask/Maper.java" />
         <option value="$PROJECT_DIR$/src/HomeWork/FirstTask/Reducer.java" />
         <option value="$PROJECT_DIR$/src/HomeWork/FirstTask/MyFilterList.java" />
-        <option value="$PROJECT_DIR$/src/HomeWork/FirstTask/Predicate.java" />
-        <option value="$PROJECT_DIR$/src/HomeWork/FirstTask/FilterList.java" />
         <option value="$PROJECT_DIR$/src/HomeWork/FirstTask/Main.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork/FirstTask/FilterList.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork/FirstTask/Predicate.java" />
       </list>
     </option>
   </component>
@@ -711,10 +711,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWork/FirstTask/Reducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWork/FirstTask/Maper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWork/FirstTask/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/HomeWork/FirstTask/FilterList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="212" column="30" lean-forward="true" selection-start-line="212" selection-start-column="30" selection-end-line="212" selection-end-column="30" />
+        <state relative-caret-position="-357">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="33" />
           <folding>
             <element signature="e#2358#2359#0" expanded="true" />
             <element signature="e#2416#2417#0" expanded="true" />
@@ -762,33 +787,6 @@
             <element signature="e#13445#13446#0" expanded="true" />
             <element signature="e#13502#13503#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HomeWork/FirstTask/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-          <folding>
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HomeWork/FirstTask/Reducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HomeWork/FirstTask/Maper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
         </state>
       </provider>
     </entry>
