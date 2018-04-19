@@ -119,6 +119,10 @@ public class Main {
         /**
          * Tests for second homework
          */
+
+        /**
+         * Modify strings
+         */
         String[] strArray = {"a", "b", "c", "d", "e"};
         String[] emptyStringArray = {};
         Predicate predicate2 = new Predicate(emptyStringArray);
@@ -131,13 +135,53 @@ public class Main {
             }
         });
 
+        System.out.println("\nSource array: ");
+
+        for(String s: strArray){
+            System.out.print(s + " ");
+        }
+        System.out.println();
+
         Iterator<?> strIter = str.iterator();
+
+        System.out.println("Resulting array: ");
 
         while(strIter.hasNext()) {
             Object ob = strIter.next();
-            System.out.println(ob);
+            System.out.print(ob + " ");
         }
 
+        /**
+         * Convert strings to integers
+         */
+        String[] strArray1 = {"1", "2", "3", "4", "5"};
+        FilterList<String> filterList03 = new FilterList<>(strArray1, predicate2);
+
+        FilterList<?> intList = filterList03.map(new Maper<String, Integer>() {
+            @Override
+            public Integer apply(String o) {
+                return Integer.valueOf(o) + 5;
+            }
+        });
+
+        System.out.println("\n\nSource array: ");
+
+        for(String s: strArray1){
+            System.out.print(s + " ");
+        }
+
+        System.out.println("\nResulting array: ");
+
+        Iterator<?> strIter3 = intList.iterator();
+
+        while (strIter3.hasNext()) {
+            Object ob = strIter3.next();
+            System.out.print(ob + " ");
+        }
+
+        /**
+         * Modify integer array to single integer
+         */
         Integer[] ints = {1, 2, 3, 4, 5};
         Integer[] emptyIntsArray = {};
         Predicate predicate3 = new Predicate(emptyIntsArray);
@@ -149,6 +193,14 @@ public class Main {
                 return o + y;
             }
         });
+
+        System.out.println("\n\nSource array: ");
+
+        for(Integer i: ints){
+            System.out.print(i + " ");
+        }
+
+        System.out.println("\nResult: ");
 
         System.out.println(int0);
 
