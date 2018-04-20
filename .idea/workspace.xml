@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68324b76-ece1-4204-a58c-0f2cdd7706e4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Epam/HomeWork/FirstTask/FilterList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Epam/HomeWork/FirstTask/FilterList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HomeWork/FirstTask/FilterList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork/FirstTask/FilterList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork/FirstTask/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork/FirstTask/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HomeWork/FirstTask/Predicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork/FirstTask/Predicate.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,19 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HomeWork/FirstTask/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="112" column="13" lean-forward="true" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="13" />
-              <folding>
-                <element signature="e#4240#4241#0" expanded="true" />
-                <element signature="e#4291#4292#0" expanded="true" />
-                <element signature="e#5056#5057#0" expanded="true" />
-                <element signature="e#5113#5114#0" expanded="true" />
-                <element signature="e#5925#5926#0" expanded="true" />
-                <element signature="e#5969#5970#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="393">
+              <caret line="205" selection-start-line="205" selection-end-line="205" />
             </state>
           </provider>
         </entry>
@@ -35,68 +30,17 @@
       <file leaf-file-name="FilterList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HomeWork/FirstTask/FilterList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-357">
-              <caret line="24" column="33" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="33" />
-              <folding>
-                <element signature="e#2358#2359#0" expanded="true" />
-                <element signature="e#2416#2417#0" expanded="true" />
-                <element signature="e#3777#3778#0" expanded="true" />
-                <element signature="e#3836#3837#0" expanded="true" />
-                <element signature="e#225#226#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#5702#5732#0" expanded="true" />
-                <element signature="e#6233#6263#0" expanded="true" />
-                <element signature="e#4304#4305#0" expanded="true" />
-                <element signature="e#4337#4338#0" expanded="true" />
-                <element signature="e#10924#10954#0" expanded="true" />
-                <element signature="e#11579#11580#0" expanded="true" />
-                <element signature="e#11636#11637#0" expanded="true" />
-                <element signature="e#11691#11692#0" expanded="true" />
-                <element signature="e#11748#11749#0" expanded="true" />
-                <element signature="e#11799#11800#0" expanded="true" />
-                <element signature="e#11856#11857#0" expanded="true" />
-                <element signature="e#11921#11922#0" expanded="true" />
-                <element signature="e#11978#11979#0" expanded="true" />
-                <element signature="e#12048#12049#0" expanded="true" />
-                <element signature="e#12105#12106#0" expanded="true" />
-                <element signature="e#12186#12187#0" expanded="true" />
-                <element signature="e#12243#12244#0" expanded="true" />
-                <element signature="e#12306#12307#0" expanded="true" />
-                <element signature="e#12363#12364#0" expanded="true" />
-                <element signature="e#12426#12427#0" expanded="true" />
-                <element signature="e#12483#12484#0" expanded="true" />
-                <element signature="e#12530#12531#0" expanded="true" />
-                <element signature="e#12587#12588#0" expanded="true" />
-                <element signature="e#12628#12629#0" expanded="true" />
-                <element signature="e#12685#12686#0" expanded="true" />
-                <element signature="e#12741#12742#0" expanded="true" />
-                <element signature="e#12798#12799#0" expanded="true" />
-                <element signature="e#12857#12858#0" expanded="true" />
-                <element signature="e#12914#12915#0" expanded="true" />
-                <element signature="e#12964#12965#0" expanded="true" />
-                <element signature="e#13021#13022#0" expanded="true" />
-                <element signature="e#13075#13076#0" expanded="true" />
-                <element signature="e#13132#13133#0" expanded="true" />
-                <element signature="e#13191#13192#0" expanded="true" />
-                <element signature="e#13248#13249#0" expanded="true" />
-                <element signature="e#13316#13317#0" expanded="true" />
-                <element signature="e#13373#13374#0" expanded="true" />
-                <element signature="e#13445#13446#0" expanded="true" />
-                <element signature="e#13502#13503#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="306">
+              <caret line="85" column="41" selection-start-line="85" selection-start-column="41" selection-end-line="85" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Predicate.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Predicate.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HomeWork/FirstTask/Predicate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#412#413#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="374">
+              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -115,31 +59,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13532">
-              <caret line="840" column="5" selection-start-line="840" selection-start-column="5" selection-end-line="840" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#15586#15587#0" expanded="true" />
-                <element signature="e#15631#15632#0" expanded="true" />
-                <element signature="e#24721#24722#0" expanded="true" />
-                <element signature="e#24775#24776#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractList.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/AbstractList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5593">
-              <caret line="366" selection-start-line="366" selection-end-line="366" />
             </state>
           </provider>
         </entry>
@@ -182,8 +101,9 @@
         <option value="$PROJECT_DIR$/src/HomeWork/FirstTask/Maper.java" />
         <option value="$PROJECT_DIR$/src/HomeWork/FirstTask/Reducer.java" />
         <option value="$PROJECT_DIR$/src/HomeWork/FirstTask/MyFilterList.java" />
-        <option value="$PROJECT_DIR$/src/HomeWork/FirstTask/Main.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork/ThirdTask/StreamAPI.java" />
         <option value="$PROJECT_DIR$/src/HomeWork/FirstTask/FilterList.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork/FirstTask/Main.java" />
         <option value="$PROJECT_DIR$/src/HomeWork/FirstTask/Predicate.java" />
       </list>
     </option>
@@ -200,8 +120,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -227,6 +145,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="HomeWork" type="462c0819:PsiDirectoryNode" />
               <item name="FirstTask" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Epam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Epam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeWork" type="462c0819:PsiDirectoryNode" />
+              <item name="ThirdTask" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Epam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Epam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeWork" type="462c0819:PsiDirectoryNode" />
+              <item name="ThirdTask" type="462c0819:PsiDirectoryNode" />
+              <item name="StreamAPI.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="Epam" type="b2602c69:ProjectViewProjectNode" />
@@ -271,6 +204,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,6 +246,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="HomeWork.FirstTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="StreamAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWork.ThirdTask.StreamAPI" />
+      <module name="Epam" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeWork.ThirdTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -372,10 +318,12 @@
     <list>
       <item itemvalue="Application.FilterList" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.StreamAPI" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.StreamAPI" />
         <item itemvalue="Application.FilterList" />
       </list>
     </recent_temporary>
@@ -410,12 +358,12 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11513859" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11727079" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -430,19 +378,16 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/HomeWork/FirstTask/FilterList.java">
+    <entry file="file://$PROJECT_DIR$/src/HomeWork/ThirdTask/StreamAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <element signature="e#3666#3667#0" expanded="true" />
-            <element signature="e#3725#3726#0" expanded="true" />
-            <element signature="e#4786#4816#0" expanded="true" />
-            <element signature="e#10480#10510#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -493,12 +438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-          <folding>
-            <element signature="e#3666#3667#0" expanded="true" />
-            <element signature="e#3725#3726#0" expanded="true" />
-            <element signature="e#4786#4816#0" expanded="true" />
-            <element signature="e#10480#10510#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -534,12 +473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2652">
           <caret line="156" column="48" lean-forward="true" selection-start-line="156" selection-start-column="48" selection-end-line="156" selection-end-column="48" />
-          <folding>
-            <element signature="e#3666#3667#0" expanded="true" />
-            <element signature="e#3725#3726#0" expanded="true" />
-            <element signature="e#4786#4816#0" expanded="true" />
-            <element signature="e#10480#10510#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -561,24 +494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2890">
           <caret line="176" column="9" lean-forward="true" selection-start-line="176" selection-start-column="9" selection-end-line="176" selection-end-column="9" />
-          <folding>
-            <element signature="e#3666#3667#0" expanded="true" />
-            <element signature="e#3725#3726#0" expanded="true" />
-            <element signature="e#4786#4816#0" expanded="true" />
-            <element signature="e#10480#10510#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HomeWork/FirstTask/FilterList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#3666#3667#0" expanded="true" />
-            <element signature="e#3725#3726#0" expanded="true" />
-            <element signature="e#4786#4816#0" expanded="true" />
-            <element signature="e#10480#10510#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -592,12 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2431">
           <caret line="143" column="27" lean-forward="true" selection-start-line="143" selection-start-column="27" selection-end-line="143" selection-end-column="27" />
-          <folding>
-            <element signature="e#3666#3667#0" expanded="true" />
-            <element signature="e#3725#3726#0" expanded="true" />
-            <element signature="e#4786#4816#0" expanded="true" />
-            <element signature="e#10480#10510#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -609,12 +518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1190">
           <caret line="70" lean-forward="true" selection-end-line="126" />
-          <folding>
-            <element signature="e#3666#3667#0" expanded="true" />
-            <element signature="e#3725#3726#0" expanded="true" />
-            <element signature="e#4786#4816#0" expanded="true" />
-            <element signature="e#10480#10510#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -626,12 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="26" column="49" lean-forward="true" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
-          <folding>
-            <element signature="e#3666#3667#0" expanded="true" />
-            <element signature="e#3725#3726#0" expanded="true" />
-            <element signature="e#4786#4816#0" expanded="true" />
-            <element signature="e#10480#10510#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -642,12 +539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#3666#3667#0" expanded="true" />
-            <element signature="e#3725#3726#0" expanded="true" />
-            <element signature="e#4786#4816#0" expanded="true" />
-            <element signature="e#10480#10510#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -695,12 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5875">
           <caret line="442" column="11" lean-forward="true" selection-start-line="442" selection-start-column="11" selection-end-line="442" selection-end-column="11" />
-          <folding>
-            <element signature="e#3666#3667#0" expanded="true" />
-            <element signature="e#3725#3726#0" expanded="true" />
-            <element signature="e#4786#4816#0" expanded="true" />
-            <element signature="e#10480#10510#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -711,10 +596,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HomeWork/FirstTask/Reducer.java">
+    <entry file="file://$PROJECT_DIR$/src/HomeWork/ThirdTask/StreamAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -725,83 +613,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HomeWork/FirstTask/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HomeWork/FirstTask/FilterList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="33" />
-          <folding>
-            <element signature="e#2358#2359#0" expanded="true" />
-            <element signature="e#2416#2417#0" expanded="true" />
-            <element signature="e#3777#3778#0" expanded="true" />
-            <element signature="e#3836#3837#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#5702#5732#0" expanded="true" />
-            <element signature="e#6233#6263#0" expanded="true" />
-            <element signature="e#4304#4305#0" expanded="true" />
-            <element signature="e#4337#4338#0" expanded="true" />
-            <element signature="e#10924#10954#0" expanded="true" />
-            <element signature="e#11579#11580#0" expanded="true" />
-            <element signature="e#11636#11637#0" expanded="true" />
-            <element signature="e#11691#11692#0" expanded="true" />
-            <element signature="e#11748#11749#0" expanded="true" />
-            <element signature="e#11799#11800#0" expanded="true" />
-            <element signature="e#11856#11857#0" expanded="true" />
-            <element signature="e#11921#11922#0" expanded="true" />
-            <element signature="e#11978#11979#0" expanded="true" />
-            <element signature="e#12048#12049#0" expanded="true" />
-            <element signature="e#12105#12106#0" expanded="true" />
-            <element signature="e#12186#12187#0" expanded="true" />
-            <element signature="e#12243#12244#0" expanded="true" />
-            <element signature="e#12306#12307#0" expanded="true" />
-            <element signature="e#12363#12364#0" expanded="true" />
-            <element signature="e#12426#12427#0" expanded="true" />
-            <element signature="e#12483#12484#0" expanded="true" />
-            <element signature="e#12530#12531#0" expanded="true" />
-            <element signature="e#12587#12588#0" expanded="true" />
-            <element signature="e#12628#12629#0" expanded="true" />
-            <element signature="e#12685#12686#0" expanded="true" />
-            <element signature="e#12741#12742#0" expanded="true" />
-            <element signature="e#12798#12799#0" expanded="true" />
-            <element signature="e#12857#12858#0" expanded="true" />
-            <element signature="e#12914#12915#0" expanded="true" />
-            <element signature="e#12964#12965#0" expanded="true" />
-            <element signature="e#13021#13022#0" expanded="true" />
-            <element signature="e#13075#13076#0" expanded="true" />
-            <element signature="e#13132#13133#0" expanded="true" />
-            <element signature="e#13191#13192#0" expanded="true" />
-            <element signature="e#13248#13249#0" expanded="true" />
-            <element signature="e#13316#13317#0" expanded="true" />
-            <element signature="e#13373#13374#0" expanded="true" />
-            <element signature="e#13445#13446#0" expanded="true" />
-            <element signature="e#13502#13503#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="85" column="41" selection-start-line="85" selection-start-column="41" selection-end-line="85" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HomeWork/FirstTask/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="112" column="13" lean-forward="true" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="13" />
-          <folding>
-            <element signature="e#4240#4241#0" expanded="true" />
-            <element signature="e#4291#4292#0" expanded="true" />
-            <element signature="e#5056#5057#0" expanded="true" />
-            <element signature="e#5113#5114#0" expanded="true" />
-            <element signature="e#5925#5926#0" expanded="true" />
-            <element signature="e#5969#5970#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="393">
+          <caret line="205" selection-start-line="205" selection-end-line="205" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWork/FirstTask/Reducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWork/FirstTask/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
         </state>
       </provider>
     </entry>

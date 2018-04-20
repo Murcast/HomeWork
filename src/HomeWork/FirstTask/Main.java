@@ -8,7 +8,7 @@ public class Main {
          * Tests for first homework
          */
         Integer[] intArray = {1, 2, 3, 4, 5, 6, 7, 3}; //массив элементов
-        Integer[] array = {1, 2, 3}; //массив предикатов
+        Integer[] array = {1, 2, 3, null}; //массив предикатов
         Predicate predicate = new Predicate(array);
         FilterList<Integer> filterList = new FilterList<>(intArray, predicate);
 
@@ -203,6 +203,5 @@ public class Main {
         System.out.println("\nResult: ");
 
         System.out.println(int0);
-
     }
 }
