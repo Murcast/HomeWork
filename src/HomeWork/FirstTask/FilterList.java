@@ -85,7 +85,7 @@ public class FilterList<E> implements List<E> {
      * @param predicate predicate
      * @throws IllegalArgumentException if the specified elementData or predicate argument equals null
      */
-    public FilterList(Object[] elementData, Predicate predicate) {
+    public FilterList(E[] elementData, Predicate predicate) {
         if (predicate != null) {
             this.predicate = predicate;
         } else {
