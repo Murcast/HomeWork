@@ -283,7 +283,12 @@ public class FilterList<E> implements List<E> {
                 obj = reducer.apply(obj, (E) elementData[i + 1]);
             }
         }
-        return obj;
+
+        if (obj != null) {
+            return obj;
+        } else {
+            throw new NullPointerException("The result of reduction is null!");
+        }
     }
 
     /**
