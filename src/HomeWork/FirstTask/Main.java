@@ -1,6 +1,9 @@
 package HomeWork.FirstTask;
 
+import java.util.Collection;
 import java.util.Iterator;
+import java.util.function.BinaryOperator;
+import java.util.function.Function;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,10 +19,8 @@ public class Main {
 
         System.out.println("Вывод элементов массива итератором\n");
 
-        while(iter.hasNext()){
-            Integer a = iter.next();
-            System.out.print(a + " ");
-        }
+        iterate(iter);
+
         System.out.print("\nsize: " + filterList.size());
 
         System.out.println("\n\nПробуем добавить 5 элементов, 3 из которых находятся в списке предикатов\n");
@@ -32,10 +33,8 @@ public class Main {
 
         Iterator<Integer> iter2 = filterList.iterator();
 
-        while(iter2.hasNext()){
-            Integer a = iter2.next();
-            System.out.print(a + " ");
-        }
+        iterate(iter2);
+
         System.out.print("\nsize: " + filterList.size());
 
         System.out.println("\n\nПробуем удалить элементы по индексу. Все 3 элемента находятся в списке предикатов\n");
@@ -58,10 +57,7 @@ public class Main {
 
         Iterator<Integer> iter3 = filterList.iterator();
 
-        while(iter3.hasNext()){
-            Integer a = iter3.next();
-            System.out.print(a + " ");
-        }
+        iterate(iter3);
 
         System.out.print("\nsize: " + filterList.size());
 
@@ -77,10 +73,7 @@ public class Main {
 
         Iterator<Integer> iter4 = filterList.iterator();
 
-        while(iter4.hasNext()){
-            Integer a = iter4.next();
-            System.out.print(a + " ");
-        }
+        iterate(iter4);
 
         System.out.print("\nsize: " + filterList.size());
 
@@ -91,10 +84,8 @@ public class Main {
         filterList.remove(Integer.valueOf(7)); //удалится
 
         Iterator<Integer> iter5 = filterList.iterator();
-        while(iter5.hasNext()){
-            Integer a = iter5.next();
-            System.out.print(a + " ");
-        }
+
+        iterate(iter5);
 
         System.out.print("\nsize: " + filterList.size()+ "\n");
 
@@ -128,7 +119,7 @@ public class Main {
         Predicate predicate2 = new Predicate(emptyStringArray);
         FilterList<String> filterList01 = new FilterList<>(strArray, predicate2);
 
-        FilterList<?> str = filterList01.map(new Maper<String, String>() {
+        FilterList<String> str = filterList01.map(new Maper<String, String>() {
             @Override
             public String apply(String o) {
                 return o + ":_:>>!";
@@ -146,10 +137,7 @@ public class Main {
 
         System.out.println("Resulting array: ");
 
-        while(strIter.hasNext()) {
-            Object ob = strIter.next();
-            System.out.print(ob + " ");
-        }
+        iterate(strIter);
 
         /**
          * Convert strings to integers
@@ -157,7 +145,7 @@ public class Main {
         String[] strArray1 = {"1", "2", "3", "4", "5"};
         FilterList<String> filterList03 = new FilterList<>(strArray1, predicate2);
 
-        FilterList<?> intList = filterList03.map(new Maper<String, Integer>() {
+        FilterList<Integer> intList = filterList03.map(new Maper<String, Integer>() {
             @Override
             public Integer apply(String o) {
                 return Integer.valueOf(o) + 5;
@@ -172,12 +160,9 @@ public class Main {
 
         System.out.println("\nResulting array: ");
 
-        Iterator<?> strIter3 = intList.iterator();
+        Iterator<?> strIter2 = intList.iterator();
 
-        while (strIter3.hasNext()) {
-            Object ob = strIter3.next();
-            System.out.print(ob + " ");
-        }
+        iterate(strIter2);
 
         /**
          * Modify integer array to single integer
@@ -203,5 +188,12 @@ public class Main {
         System.out.println("\nResult: ");
 
         System.out.println(int0);
+    }
+
+    private static void iterate(Iterator<?> iter){
+        while (iter.hasNext()) {
+            Object ob = iter.next();
+            System.out.print(ob + " ");
+        }
     }
 }

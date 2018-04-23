@@ -253,13 +253,15 @@ public class FilterList<E> implements List<E> {
      * The type of elements of the returned list may differ from the original.
      *
      * @param mapper functional interface instance
+     * @param <T> parameter type of returned list
      * @return new transformed list
      */
-    public FilterList<?> map(Maper mapper) {
-        FilterList<Object> list = new FilterList<>(this.size(), predicate);
+    @SuppressWarnings("unchecked")
+    public <T> FilterList<T> map(Maper<E, T> mapper) {
+        FilterList<T> list = new FilterList<>(this.size(), predicate);
         for (int i = 0; i < this.size(); i++) {
-            Object obj = mapper.apply(elementData[i]);
-            list.add(obj);
+            Object obj = mapper.apply((E) elementData[i]);
+            list.add((T) obj);
         }
         return list;
     }
@@ -270,17 +272,18 @@ public class FilterList<E> implements List<E> {
      * @param reducer functional interface instance
      * @return single value as a result of reducer function
      */
-    public E reduce(Reducer reducer) {
-        Object obj = null;
+    @SuppressWarnings("unchecked")
+    public E reduce(Reducer<E> reducer) {
+        E obj = null;
 
         for (int i = 0; i < elementData.length - 1; i++) {
             if (obj == null) {
-                obj = reducer.apply(elementData[i], elementData[i + 1]);
+                obj = reducer.apply((E) elementData[i], (E) elementData[i + 1]);
             } else {
-                obj = reducer.apply(obj, elementData[i + 1]);
+                obj = reducer.apply(obj, (E) elementData[i + 1]);
             }
         }
-        return (E) obj;
+        return obj;
     }
 
     /**
