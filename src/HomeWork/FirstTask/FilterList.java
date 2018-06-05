@@ -1,5 +1,5 @@
 package HomeWork.FirstTask;
-
+//asdasdasd
 import java.util.*;
 
 public class FilterList<E> implements List<E> {
