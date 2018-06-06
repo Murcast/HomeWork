@@ -12,7 +12,7 @@ public class FilterList<E> implements List<E> {
     /**
      * Default initial capacity.
      */
-    private static final int DEFAULT_CAPACITY = 10;
+    private static final int DEFAULT_CAPACITY = 12;
 
     /**
      * The array buffer into which the elements of the ArrayList are stored.
